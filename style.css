@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: #0a8aa7;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.main_container {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 200px;
+}
+
+[class*="paralax_container"]{
+    height: 100vh;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.paralax_container_1 {
+    /*background-color: aqua;*/
+}
+
+
+
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.layer-1 {
+    background-image: url(/Recursos/14.png);
+    transform: translateZ(-700px) scale(4.6);
+    z-index: 0;
+}
+
+.layer-2 {
+    background-image: url(/Recursos/13.png);
+    transform: translateZ(-650px) scale(4.3);
+    z-index: 1;
+}
+
+.layer-3 {
+    background-image: url(/Recursos/12.png);
+    transform: translateZ(-600px) scale(4);
+    z-index: 2;
+}
+
+.layer-4 {
+    background-image: url(/Recursos/11.png);
+    transform: translateZ(-550px) scale(3.8);
+    z-index: 3;
+}
+
+.layer-5 {
+    background-image: url(/Recursos/10.png);
+    transform: translateZ(-500px) scale(3.4);
+    z-index: 4;
+}
+
+.layer-6 {
+    background-image: url(/Recursos/09.png);
+    transform: translateZ(-450px) scale(3.3);
+    z-index: 5;
+}
+
+.layer-7 {
+    background-image: url(/Recursos/08.png);
+    transform: translateZ(-400px) scale(3);
+    z-index: 6;
+}
+
+.layer-8 {
+    background-image: url(/Recursos/07.png);
+    transform: translateZ(-350px) scale(2.8);
+    z-index: 7;
+}
+
+.layer-9 {
+    background-image: url(/Recursos/06.png);
+    transform: translateZ(-300px) scale(2.5);
+    z-index: 8;
+}
+
+.layer-10 {
+    background-image: url(/Recursos/05.png);
+    transform: translateZ(-250px) scale(2.3);
+    z-index: 9;
+}
+
+.layer-11 {
+    background-image: url(/Recursos/04.png);
+    transform: translateZ(-200px) scale(2);
+    z-index: 10;
+}
+
+.layer-12 {
+    background-image: url(/Recursos/03.png);
+    transform: translateZ(-150px) scale(1.9);
+    z-index: 11;
+}
+
+.layer-13 {
+    background-image: url(/Recursos/02.png);
+    transform: translateZ(-100px) scale(1.5);
+    z-index: 12;
+}
+
+.layer-14 {
+    background-image: url(/Recursos/01.png);
+    transform: translateZ(-100px) scale(1.5);
+    z-index: 13;
+}
+
+.paralax_container_2 {
+    background-color: #0a8aa7;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paralax_container_2 {
+    font-size: 4rem;
+}
